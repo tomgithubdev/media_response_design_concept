@@ -78,9 +78,3 @@ h2{
   }
 }
 
-@media (min-width:835px) and (max-width:1057px){
-  .logo {
-    width: 220px;
-  }
-
-}
