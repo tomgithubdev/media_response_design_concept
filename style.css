@@ -10,10 +10,16 @@ body {
   flex: 1;
 }
 
-h1 {
+.title > h1 {
   font-size: 5rem;
+  display: inline-block;
+  width:75%;
 }
 
+.title > img {
+
+  display: inline-block;
+}
 
 footer {
   text-align: right;
@@ -23,11 +29,17 @@ footer {
 h2{
   margin-top:0;
 }
+
+
 .logo {
   width: 100px;
 }
-@media (min-width:835px){
 
+
+@media (min-width:835px){
+  .logo {
+    width: 100px;
+  }
   .left{
     width: 45%;
     float:left;
@@ -44,9 +56,14 @@ h2{
   }
 }
 @media (max-width:834px){
-
-  h1 {
-    font-size: 3.5rem;
+  .logo {
+    width: 300px;
+  }
+  .title{
+    text-align: center;
+  }
+  .title >h1 {
+    font-size: 3.7rem;
     text-align: center;
   }
   .card{
@@ -61,3 +78,9 @@ h2{
   }
 }
 
+@media (min-width:835px) and (max-width:1057px){
+  .logo {
+    width: 220px;
+  }
+
+}
