@@ -23,6 +23,9 @@ footer {
 
 
 @media (min-width:835px){
+  .logo {
+    width: 100px;
+  }
   .left{
     width: 45%;
     float:left;
